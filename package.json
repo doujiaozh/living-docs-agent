@@ -1,0 +1,29 @@
+{
+  "name": "living-docs-agent",
+  "version": "0.1.0",
+  "description": "Living documentation agent — scans C/Python source trees and keeps your README's API docs forever fresh.",
+  "type": "module",
+  "main": "src/index.js",
+  "bin": {
+    "living-docs": "bin/cli.js"
+  },
+  "scripts": {
+    "test": "node --test tests/",
+    "demo:c": "node bin/cli.js tests/fixtures/c -o demo/API.c.md",
+    "demo:py": "node bin/cli.js tests/fixtures/python -o demo/API.python.md"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "documentation",
+    "docs",
+    "readme",
+    "api",
+    "c",
+    "python",
+    "watch",
+    "living-docs"
+  ],
+  "license": "MIT"
+}
