@@ -27,3 +27,14 @@ CMakeFiles/
 *.ilk
 *.exp
 /out/
+node_modules/
+dist/
+build/
+out/
+.next/
+coverage/
+*.tsbuildinfo
+.npm/
+.pnpm-store/
+yarn-error.log
+*.tgz
